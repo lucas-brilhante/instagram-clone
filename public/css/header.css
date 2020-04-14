@@ -1,0 +1,27 @@
+header {
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.header__content {
+    display:flex;
+    max-width: 760px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+    height: 60px;
+}
+.header__link,
+.header__logo {
+    height: 100%;
+    cursor: pointer;
+}
+
+.header__icon{
+    cursor: pointer;
+    padding: 5px;
+    margin-right: 10px;
+}
